@@ -1,15 +1,10 @@
+######################################################################
+# @@HEADER2_NANAMI@@
+######################################################################
+# v0.2.1 First Release
+######################################################################
 # usage : #soundcloud([word press code])
-
-@::youtube_baseurl=(
-	"http://www.youtube.com/watch?v=",
-	"https://www.youtube.com/watch?v=",
-	"http://www.youtube.com/embed/",
-	"https://www.youtube.com/embed/",
-	"http://www.youtube.com/v/",
-	"https://www.youtube.com/v/",
-	"http://youtu.be/",
-	"https://youtu.be/",
-);
+######################################################################
 
 $::soundcloud_base_html=qq(<iframe width="\$width" height="\$height" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=\$url&amp;\$params"></iframe>);
 
